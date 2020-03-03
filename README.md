@@ -19,6 +19,12 @@ npm start
 3. Modal 버튼 클릭 (API call)
 4. div에 표시
 
+## To-do
+- [x] Page level에서 API 처리 프로세스 작성
+- [x] Component level에서 API 처리 프로세스 작성
+- [ ] 동시에 API 호출 및 결과를 핸들링 할 수 있는 `useParallel` 작성
+- [ ] 순차적으로 API 호출 및 결과를 핸들링 할 수 있는 `useWaterfall` 작성
+
 ## [1. Page level에서 API 호출 및 핸들링](https://github.com/doong-jo/react-async-process/tree/master)
 
 ### 장점
