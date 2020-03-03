@@ -1,6 +1,18 @@
 # react-async-process
 React에서의 API 호출과 응답에 대한 핸들링 playground
 
+## 실행
+node (v10 or v12)
+```sh
+yarn
+yarn start
+```
+or
+```sh
+npm i
+npm start
+```
+
 ## Flow
 1. Button 클릭 (API call)
 2. Modal 팝업
