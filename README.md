@@ -29,6 +29,8 @@ npm start
 
 ![react-async 001](https://user-images.githubusercontent.com/22005861/75739361-08823180-5d48-11ea-81cb-cc6e00380931.jpeg)
 
+: 페이지(상위 컴포넌트)가 상태와 API 핸들링을 모두 가지고 있으면서 자식 컴포넌트의 상태를 갱신하는 case
+
 ### 장점
 - Page 컴포넌트에서 API 응답에 대한 상태를 관리하고 하위의 컴포넌트에게 props로 전달하므로 단순하고 이해하기 쉬움
 - 각 컴포넌트는 props를 주입받으므로 재사용성이 높아짐
@@ -38,7 +40,7 @@ npm start
 - 역방향으로 데이터가 흐를 시에 콜백을 넘겨줘야 함
 
 ## [2. 각 컴포넌트에서 API 호출 및 핸들링](https://github.com/doong-jo/react-async-process/tree/component)
-Context API를 통해 상태를 공유하고 이를 구독하여 각 컴포넌트의 상태 갱신
+: Context API를 통해 상태를 공유하고 이를 구독하여 각 컴포넌트의 상태 갱신하는 case
 
 ![react-async 002](https://user-images.githubusercontent.com/22005861/75739383-13d55d00-5d48-11ea-9688-64dee455db1b.jpeg)
 
