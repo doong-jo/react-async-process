@@ -26,10 +26,9 @@ npm start
 - [ ] 순차적으로 API 호출 및 결과를 핸들링 할 수 있는 `useWaterfall` 작성
 
 ## [1. Page level에서 API 호출 및 핸들링](https://github.com/doong-jo/react-async-process/tree/master)
+: 페이지(상위 컴포넌트)가 상태와 API 핸들링을 모두 가지고 있으면서 자식 컴포넌트의 상태를 갱신하는 case
 
 ![react-async 001](https://user-images.githubusercontent.com/22005861/75739361-08823180-5d48-11ea-81cb-cc6e00380931.jpeg)
-
-: 페이지(상위 컴포넌트)가 상태와 API 핸들링을 모두 가지고 있으면서 자식 컴포넌트의 상태를 갱신하는 case
 
 ### 장점
 - Page 컴포넌트에서 API 응답에 대한 상태를 관리하고 하위의 컴포넌트에게 props로 전달하므로 단순하고 이해하기 쉬움
