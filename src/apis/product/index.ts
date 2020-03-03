@@ -10,5 +10,5 @@ import { Product } from './types';
 < Content-Type: application/json; charset=UTF-8
 { "hello": "world" }
 */
-export const getProducts = (): Promise<AxiosResponse<Product[]>> =>
+export const getProducts = (): Promise<AxiosResponse<Product>> =>
   mainAxios.get('/v2/5185415ba171ea3a00704eed');

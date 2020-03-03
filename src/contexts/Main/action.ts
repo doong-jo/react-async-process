@@ -1,2 +1,2 @@
-// export const SET_DATA_API1 = "SET_DATA_API1";
-// export const SET_DATA_API2 = "SET_DATA_API2";
+export const SET_PRODUCT = 'SET_PRODUCT';
+export const SET_RESERVATION = 'SET_RESERVATION';

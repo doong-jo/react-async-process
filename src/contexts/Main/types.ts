@@ -1,17 +1,16 @@
-// import { AxiosResponse } from "axios";
+import { Product } from '../../apis/product/types';
+import { Reservation } from '../../apis/reservation/types';
 
-// export interface MainState<T, K> {
-// 	apiOne: {
-// 		responseData: T;
-// 		error: AxiosResponse<any>;
-// 	};
-// 	apiTwo: {
-// 		responseData: K;
-// 		error: AxiosResponse<any>;
-// 	};
-// }
+export interface MainState {
+  product: Product;
+  reservation: Reservation;
+}
 
-// export interface MainAction<T, K> {
-// 	type: string;
-// 	value: MainState<T, K>;
-// }
+export interface MainAction {
+  type: string;
+  draftValue: Product | Reservation;
+}
+
+export interface MainReducer {
+  (state: MainState, action: MainAction): MainState;
+}

@@ -1,11 +1,14 @@
 import * as React from 'react';
 import { render } from 'react-dom';
 import Main from './pages/Main';
+import MainContext from './contexts/Main';
 
 function App() {
   return (
     <div>
-      <Main />
+      <MainContext>
+        <Main />
+      </MainContext>
     </div>
   );
 }
