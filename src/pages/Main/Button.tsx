@@ -5,7 +5,6 @@ import { Product } from '../../apis/product/types';
 import { getProducts } from '../../apis/product';
 import { SET_PRODUCT } from '../../contexts/Main/action';
 import { S1001 } from '../../apis/product/code';
-// import { S1001 } from '../../apis/product/code';
 
 function Button({ children }: { children: string }) {
   const mainAction = useContext(MainActionContext);
