@@ -27,6 +27,8 @@ npm start
 
 ## [1. Page level에서 API 호출 및 핸들링](https://github.com/doong-jo/react-async-process/tree/master)
 
+![react-async 001](https://user-images.githubusercontent.com/22005861/75739361-08823180-5d48-11ea-81cb-cc6e00380931.jpeg)
+
 ### 장점
 - Page 컴포넌트에서 API 응답에 대한 상태를 관리하고 하위의 컴포넌트에게 props로 전달하므로 단순하고 이해하기 쉬움
 - 각 컴포넌트는 props를 주입받으므로 재사용성이 높아짐
@@ -37,6 +39,8 @@ npm start
 
 ## [2. 각 컴포넌트에서 API 호출 및 핸들링](https://github.com/doong-jo/react-async-process/tree/component)
 Context API를 통해 상태를 공유하고 이를 구독하여 각 컴포넌트의 상태 갱신
+
+![react-async 002](https://user-images.githubusercontent.com/22005861/75739383-13d55d00-5d48-11ea-9688-64dee455db1b.jpeg)
 
 ### 장점
 - 각 API 호출이 분산되어 있으므로 호출하는 API 요청이 많더라도 한 컴포넌트가 비대해지는 것을 막을 수 있음
