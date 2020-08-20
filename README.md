@@ -22,8 +22,6 @@ npm start
 ## To-do
 - [x] Page level에서 API 처리 프로세스 작성
 - [x] Component level에서 API 처리 프로세스 작성
-- [ ] 동시에 API 호출 및 결과를 핸들링 할 수 있는 `useParallel` 작성
-- [ ] 순차적으로 API 호출 및 결과를 핸들링 할 수 있는 `useWaterfall` 작성
 
 ## [1. Page level에서 API 호출 및 핸들링](https://github.com/doong-jo/react-async-process/tree/master)
 : 페이지(상위 컴포넌트)가 상태와 API 핸들링을 모두 가지고 있으면서 자식 컴포넌트의 상태를 갱신하는 case
@@ -57,3 +55,4 @@ npm start
 ## 의견
 - API 호출이 페이지 방문 시 주로 이루어지며 컴포넌트 간의 갱신이 적다면 1번
 - Use case의 단계가 많고 컴포넌트 간의 갱신이 많다면 2번
+- 더 복잡한 비동기 처리를 해야한다면 RxJS 사용도 
